@@ -1,0 +1,12 @@
+x,y,z=('banana','mango','orange')
+print(x,y,z)
+x=15
+y=20
+print(x+y)
+fruits=['banana','mango','jackfruit']
+x,y,z=fruits
+print(fruits)
+x,y,z=['dog','cat','bird']
+print(x)
+print(y)
+print(z)
