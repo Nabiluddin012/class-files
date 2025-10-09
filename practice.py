@@ -377,6 +377,22 @@
 # print(thislist)
 
 
-thislist = ["apple", "banana", "cherry","10","20","30",True,False,100,200,]
+# thislist = ["apple", "banana", "cherry","10","20","30",True,False,100,200,]
 
-print(len(thislist))
+# print(len(thislist))
+
+class person:
+    def mh(self,name,age):
+        self.name=name
+        self.age=age
+
+
+p=person()
+p2=person()
+
+p.mh("mahi","29")
+p2.mh("nabil","22")
+print(p.age)
+print(p.name)
+print(p2.name)
+print(p2.age)
